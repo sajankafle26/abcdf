@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body 
+{
+    line-height: 1.7;
+    font-family: 'Mukta', sans-serif;
+}
+:root 
+{
+    --brand: #255995;
+    --r: #E41525;
+    --w:#fff;
+}
+ul 
+{
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+}
+.flex 
+{
+    display:flex;
+    justify-content: space-between;
+}
+.con 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.top 
+{
+    background: var(--r);
+    padding: 5px 0;
+    font-size: 13px;
+    color: var(--w);
+}
+.gap
+{
+    gap: 15px;
+}
+.social li 
+{
+    width: 35px; height: 35px; background: #f2f2f2;text-align: center;
+    line-height: 35px; color: #000; border-radius: 3px;
+}
+.logo
+{
+    flex-basis: 30%;
+}
+.topads
+{
+    flex-basis: 70%;
+}
+.w-100
+{
+    width: 100%;
+}
+header
+{
+    padding: 25px 0;
+}
+.mainmenu
+{
+    background: var(--brand);
+}
+.mainmenu ul 
+{
+    display: flex;
+}
+.mainmenu a{
+    padding: 10px;
+    display: inline-block;
+    color: var(--w);
+}
+.ads
+{
+    background: #f2f2f2;
+    padding: 5px;
+    margin: 10px 0;
+}
+article
+{
+    background: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+article h2 
+{
+    font-size: 53px;
+    font-weight: bold;
+    color: var(--brand);
+    padding: 20px 0;
+}
+.title
+{
+    border-bottom: 5px double var(--brand);
+    display: inline;
+    padding-bottom: 10px;
+}
+.block1-left
+{
+    flex-basis: 70%;
+}
+.block1-right
+{
+    flex-basis: 30%;
+}
+.blue
+{
+    background: var(--brand);
+    padding: 20px;
+    color: var(--w);
+}
+.blue h3 
+{
+    padding: 30px 0;
+}
+.down
+{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+footer
+{
+    background: var(--brand);
+    padding: 20px 0 0 0;
+    color: #ccc;
+}
+.copyright
+{
+    background: var(--r);
+    color: var(--w);
+    padding: 10px ;
+    text-align: center;
+}
+.ss 
+{
+    width: 30px;
+    height: 100px;
+    background: var(--brand);
+    position: fixed;
+    top: 20%;
+    left: 0;
+}
